@@ -1,0 +1,512 @@
+@font-face {
+    font-family: MaisonNeueMonoWEB;
+    src: url("620e57b046aeb142afb3c373_MaisonNeueMonoWEB-Regular.ttf");
+}
+
+@font-face {
+    font-family: AeonikPro-Regular;
+    src: url("620e5796f94823392179d875_AeonikPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: AeonikMono-Regular;
+    src: url("6232160eeef427e45a261dff_AeonikMono-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: AeonikPro-Regular;
+}
+
+html,
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#mainCtn {
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+#landingPage {
+    height: 72vh;
+    width: 100vw;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 5px 50px;
+}
+
+nav img {
+    height: 30px;
+    width: 30px;
+}
+
+#rightNav {
+    display: flex;
+    align-items: center;
+}
+
+#rightNav button {
+    margin-right: 30px;
+    height: 35px;
+    width: 120px;
+    background-color: #dbff00;
+    border-radius: 22.5px;
+}
+
+.menu {
+    width: 38px;
+    height: 38px;
+}
+
+#mainH {
+    color: white;
+    font-size: 3.1vw;
+    padding: 0px 50px 0px 50px;
+}
+
+#mainH h1 {
+    font-weight: 475;
+}
+
+#sLine {
+    width: 50vw;
+    height: 1px;
+    background-color: white;
+    /* margin-bottom: px; */
+    margin: 0px 25px 0px 25px;
+    margin-top: 30px;
+}
+
+#mainHMidH {
+    display: flex;
+    align-items: center;
+}
+
+#mainHL {
+    text-align: right;
+}
+
+#mainHL sup {
+    font-size: 20px;
+}
+
+#videoP {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+#video1 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    border: none;
+    box-shadow: none;
+
+}
+
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color:transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-family: gilroy;
+    z-index: 11111;
+}
+
+#h2 {
+    text-align: right;
+    color: white;
+    padding: 0px 50px 0px 50px;
+    margin-top: 100px;
+    font-size: 0.8vw;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
+
+#h2 i {
+    font-size: 1.2vw;
+    margin-left: 5px;
+}
+
+#thirdPage {
+    height: 178vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 200px 50px 0px 50px;
+
+}
+
+
+#tmiddle {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+#tSLine {
+
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+#orbital {
+    font-size: 20vw;
+    color: white;
+}
+
+#bH {
+    display: flex;
+    align-items: center;
+}
+
+#bH h1 {
+    font-size: 20vw;
+    color: white;
+    line-height: 28vh;
+}
+
+#bH button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+#fourthPage {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#fourthPage video {
+    height: 145%;
+    width: 145%;
+    object-fit: contain;
+    object-position: center;
+
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
+
+}
+
+#fivthPage {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.fo {
+    width: 25%;
+    height: 100vh;
+    background-color: green;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+
+.fo video {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#sixPage {
+    height: 125vh;
+    width: 100%;
+}
+
+
+#sixPage h1 {
+    font-size: 60px;
+    padding: 200px 50px 0px 50px;
+
+}
+
+#slider {
+    margin-top: 130px;
+    width: 100%;
+    height: 40vh;
+    /* border: 2px solid black; */
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slides {
+    padding: 50px;
+    width: 25%;
+    height: 100%;
+    border: 2px solid red;
+    display: inline-block;
+    flex-shrink: 0;
+
+
+
+}
+
+.slides p {
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+#seventhPage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#seventhPage h1 {
+    font-size: 30vw;
+    letter-spacing: 5px;
+}
+
+#box1 {
+    position: absolute;
+    top: 20%;
+    left: 9%;
+    height: 80vh;
+    width: 23%;
+    border: 2px solid black;
+
+}
+
+.sBox {
+    width: 100%;
+    height: 85%;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+
+.sBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+
+}
+
+.sBox img:hover {
+    transform: scale(1.1);
+}
+
+.box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#box2 {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    height: 80vh;
+    width: 23%;
+    border: 2px solid black;
+}
+
+#box3 {
+    position: absolute;
+    top: 20%;
+    left: 72%;
+    height: 80vh;
+    width: 23%;
+    border: 2px solid black;
+}
+
+#eightPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+#epmainH {
+    color: black;
+    font-size: 40px;
+    /* border: 2px solid white; */
+    padding: 00px 50px 0px 50px;
+    word-spacing: -30px;
+    font-weight: 200;
+    position: relative;
+}
+
+#epmainHMidH {
+    display: flex;
+    align-items: center;
+}
+
+#epsLine {
+    width: 50vw;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    /* margin-bottom: px; */
+    margin: 0px 25px 0px 25px;
+    margin-top: 30px;
+
+}
+
+#epmainHL {
+    text-align: right;
+}
+
+
+#epCircle {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+
+}
+
+#ninthPage {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+#leftP {
+    width: 50vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border-right: 2px solid white; */
+
+
+}
+
+#leftP h1 {
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+#leftP p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#leftP input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    width: 30vw;
+    padding: 20px 0px;
+}
+
+#leftP img {
+    width: 250px;
+    height: 250px;
+    margin: 60px 0px;
+}
+
+#leftP button {
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+#rightP {
+    width: 50vw;
+    height: 100vh;
+    border-left: 2px solid white;
+}
+
+
+/* .bb{
+    width: 50vw;
+    height: 100vh;
+    border: 2px solidwhite;
+    background-color: ;
+} */
+
+.bb {
+    /* background-color: white; */
+    width: 50vw;
+    height: 11vh;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    font-size: 15px;
+
+}
+
+.bb h1 {
+    font-weight: 250;
+}
+
+#b9 {
+    width: 50vw;
+    height: 12vh;
+    /* border-bottom: 2px solid white */
+}
