@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    #mainCtn {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(106, 212, 226);
+    }
+
+    nav {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 100px;
+        background-color: white;
+    }
+
+    nav h1 {
+        color: red;
+        font-size: 1.5vw;
+        /* border: 2px solid blue; */
+        /* padding: 10px; */
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    nav ul li {
+        padding: 0px 20px;
+    }
+
+    section {
+        width: 100vw;
+        height: 90vh;
+         display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center; 
+
+    }
+
+    section h1{
+        font-size: 5vw;
+    }
+
+    #bar{
+        height: 20px;
+        width: 80px;
+        background-color: black;
+        display: none;
+    }
+
+    @media only screen and (max-width: 800px) {
+        nav ul {
+            display: none;
+        }
+
+        nav {
+            padding: 0px 10px;
+        }
+        #bar{
+   
+        display: block;
+    }
+       
+    }
+
+
+</style>
+
+<body>
+    <div id="mainCtn">
+        <nav>
+            <h1>Responsive_Navigation_Bar</h1>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Buy Products</li>
+                <li>Contact</li>
+                <li>Sign Up</li>
+            </ul>
+            <div id="bar"></div>
+        </nav>
+        <section>
+            <h1>Responsive Navigation Bar</h1>
+            <!-- <h1>Developer - Gaurav Khare</h1> -->
+        </section>
+    </div>
+</body>
+
+</html>
